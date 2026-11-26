@@ -1,94 +1,59 @@
-# Hey there, I'm Johnpaul K Reju 👋
+<a href="https://www.johnpaulreju.in/">
+  <picture>
+    <source media="(max-width: 620px) and (prefers-reduced-motion: no-preference) and (prefers-color-scheme: dark)" srcset="./assets/mobile-dark.svg">
+    <source media="(max-width: 620px) and (prefers-reduced-motion: no-preference) and (prefers-color-scheme: light)" srcset="./assets/mobile-light.svg">
+    <source media="(max-width: 620px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/mobile-dark-still.svg">
+    <source media="(max-width: 620px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/mobile-light-still.svg">
+    <source media="(prefers-reduced-motion: no-preference) and (prefers-color-scheme: dark)" srcset="./dark.svg">
+    <source media="(prefers-reduced-motion: no-preference) and (prefers-color-scheme: light)" srcset="./light.svg">
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/dark-still.svg">
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/light-still.svg">
+    <img src="./assets/dark-still.svg" width="1180" alt="Johnpaul K Reju, Full Stack AI Engineer in Bengaluru. A terminal draws my illustrated GitHub avatar in ASCII. Open my portfolio.">
+  </picture>
+</a>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+Full+Stack+Engineer;Working+on+Voice+Modulation+AI;LLM+and+GenAI+Enthusiast;Always+Coding...+Stressed+or+Not!" alt="Typing SVG" />
-</div>
+# Hi, I'm Johnpaul.
 
-## 🚀 About Me
+I'm a full stack AI engineer in Bengaluru. At Odyssey Therapeia, I built a clinical workspace where a doctor can open an appointment and start the AI scribe in the same view. I’ve also built real-time avatar chat, from the React interface to the FastAPI stream behind it.
 
-I'm an AI Full Stack Engineer currently working at a startup, building cool stuff with AI and voice modulation technology. Completed my BCA from JECRC University, Jaipur and MCA from Kristu Jayanti College, Bangalore.
+[Portfolio](https://www.johnpaulreju.in/) · [Résumé](https://www.johnpaulreju.in/resume) · [Medium](https://medium.com/@johnpaulreju2k) · [Email](mailto:johnpaulreju2k@gmail.com)
 
-- 🔭 Currently working on **Voice Modulation AI Project**
-- 🌱 Deep diving into **LLM and Generative AI**
-- 👯 Looking to collaborate on **AI Projects**
-- 💬 Ask me about **OpenAI API integration, Real-time models, Custom tools implementation**
-- 📫 Reach me at: **johnpaulreju2k@gmail.com**
-- 🎮 When not coding: **Gaming and Cooking**
-- ⚡ Fun fact: **I code when I'm stressed, and I also code when I'm not stressed**
+## Inside Plan0
 
-## 🛠️ Tech Stack
+I’m building Plan0 to turn a software idea into a brief for a coding agent. In this recorded local demo, I start with a watering schedule for a community garden. After five scripted questions, I open the exported ZIP and find the volunteers, shift rules and first-release scope in `PRODUCT.md`.
 
-### AI/ML & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-2B579A?style=for-the-badge&logo=chainlink&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-4285F4?style=for-the-badge&logo=google&logoColor=white)
+<a href="https://www.johnpaulreju.in/watch/plan0-demo">
+  <picture>
+    <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/plan0-demo.gif">
+    <img src="./assets/plan0-demo.png" width="920" alt="Frames from my local Plan0 demo showing the garden scheduling idea, a planning question, the ZIP export and the finished Markdown brief.">
+  </picture>
+</a>
 
-### Backend Development
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
+[Watch the full 42-second walkthrough](https://www.johnpaulreju.in/watch/plan0-demo) · [Visit Plan0](https://www.plan0.in/)
 
-### Frontend Development
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+## Selected work
 
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white)
+- **Portfolio OS** opens my projects as windows on desktop and as apps on a phone. Both interfaces read from the same profile. [Open the portfolio](https://www.johnpaulreju.in/) · [Explore the Next.js source](https://github.com/Johnpaulreju/My_portfolio)
+- **Mafia Night** is a multiplayer social deduction game. The server keeps each player’s secret role and sends them the current round when they reconnect. [Explore the WebSocket game server](https://github.com/Johnpaulreju/mafia_imposter/tree/main/server)
+- **From The Trunk** is a storefront for preloved sarees. I built most of it at Odyssey Therapeia, including the storefront design and payment integration. [Visit the storefront](https://www.fromthetrunk.shop/)
+- **ICU mortality prediction** was my master’s research at Kristu Jayanti College. I studied how k-nearest neighbors could be used for the prediction task. [Open the research repository](https://github.com/Johnpaulreju/ICU-Mortality-rate-prediction-using-Ml-Algo)
 
-### DevOps & Cloud
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Agile](https://img.shields.io/badge/Agile-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+## Engineering stack
 
-## 💡 What I Can Help You With
+![TypeScript](./assets/badge-typescript.svg) ![React](./assets/badge-react.svg) ![Next.js](./assets/badge-nextdotjs.svg) ![Python](./assets/badge-python.svg) ![FastAPI](./assets/badge-fastapi.svg) ![PostgreSQL](./assets/badge-postgresql.svg) ![WebRTC](./assets/badge-webrtc.svg) ![Docker](./assets/badge-docker.svg)
 
-- 🤖 **OpenAI API Integration**: Both real-time and standard models
-- 🛠️ **Custom Tools Development**: Building specialized tools for LLM applications
-- 🔌 **Real-time AI Integration**: WebSocket/WebRTC implementation for live AI interactions
-- 🧠 **LangChain Development**: Building complex AI workflows and chains
-- 📊 **Predictive Modeling**: ML models for data analysis and predictions
-- 🚀 **Full Stack AI Applications**: End-to-end AI-powered web applications
+I use TypeScript and React for interfaces, Python and FastAPI for streaming responses, and WebSocket and WebRTC for live conversations.
 
-## 📊 GitHub Stats
+## Writing on Medium
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Johnpaulreju&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Johnpaulreju&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
+- **Why Zerodha chose SQLite.** I looked at how Blobasaur stores chart preferences and what batching writes buys the team. [Read the database breakdown](https://medium.com/@johnpaulreju2k/why-zerodha-chose-sqlite-when-bigger-databases-were-available-85ecacf315b2)
+- **Organic clicks went from 2 to 11.** Neel Raval and I examined which conclusions we could draw after several changes to From The Trunk, including a hyphen removal. [Read the attribution case study](https://medium.com/@johnpaulreju2k/we-removed-a-hyphen-organic-clicks-rose-450-here-is-what-the-data-really-said-e5230a5214ff)
+- **From O(1) to O(n!).** A hands-on guide to what happens to runtime and memory as inputs get larger. [Read the code examples](https://medium.com/@johnpaulreju2k/from-o-1-to-o-n-a-friendly-guide-to-algorithm-complexity-with-real-code-bd84d28832ca)
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Johnpaulreju&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
+## GitHub activity
 
-## 🤝 Let's Connect
+[![Public profile snapshot from August 2 to November 21, 2026. There were 82 contributions across 21 active days.](./assets/activity.svg)](https://github.com/Johnpaulreju?tab=overview&from=2026-08-02&to=2026-11-21)
 
-<div align="center">
-  <a href="https://linkedin.com/in/Johnpaulreju2k">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:johnpaulreju2k@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/Johnpaulreju">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</div>
+[See my current GitHub activity](https://github.com/Johnpaulreju?tab=overview)
 
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Johnpaulreju&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
-  <br/>
-  <i>💻 "I code when I'm stressed, and I also code when I'm not stressed" - That's my life! 🎮🍳</i>
-</div>
+Outside work, I like gaming and cooking. [Connect on LinkedIn](https://www.linkedin.com/in/johnpaul-k-reju/)
