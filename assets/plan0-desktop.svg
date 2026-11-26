@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="328" viewBox="0 0 1000 328" role="img" aria-labelledby="title description">
+  <title id="title">Johnpaul K Reju · Full Stack AI Engineer</title>
+  <desc id="description">An illustrated desktop opens the product brief from Johnpaul’s Plan0 garden scheduling demo.</desc>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.85" fill="#c4c4ff" opacity=".42"/>
+    </pattern>
+    <pattern id="keys" width="18" height="9" patternUnits="userSpaceOnUse" patternTransform="skewX(-22)">
+      <rect x="1" y="1" width="14" height="5" rx="1" fill="#465060"/>
+    </pattern>
+    <clipPath id="poster"><rect width="1000" height="328" rx="12"/></clipPath>
+    <style>
+      .sans { font-family: Inter, "Helvetica Neue", Arial, sans-serif }
+      .mono { font-family: "IBM Plex Mono", Menlo, Consolas, monospace }
+      .outline { stroke: #141935; stroke-width: 3; stroke-linejoin: round }
+      /* The default drawing is the finished frame, including for reduced motion. */
+      @media (prefers-reduced-motion: no-preference) {
+        .brief { animation: open-brief 4.2s both }
+        .pointer { animation: select-file 4.2s both }
+        .click { animation: click 4.2s both }
+        .ink { animation: write-brief 4.2s both; transform-box: fill-box; transform-origin: left }
+      }
+      @keyframes open-brief {
+        0%, 36% { opacity: 0; transform: translate(-14px, 9px) }
+        53%, 100% { opacity: 1; transform: translate(0, 0) }
+      }
+      @keyframes select-file {
+        0%, 7% { transform: translate(69px, 45px) }
+        30%, 44% { transform: translate(0, 0) }
+        76%, 100% { transform: translate(112px, 65px) }
+      }
+      @keyframes click {
+        0%, 29%, 46%, 100% { opacity: 0 }
+        34%, 39% { opacity: 1 }
+      }
+      @keyframes write-brief {
+        0%, 51% { transform: scaleX(0) }
+        77%, 100% { transform: scaleX(1) }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#poster)">
+    <rect width="1000" height="328" fill="#f5f0e6"/>
+    <rect x="538" width="462" height="328" fill="#4941c8"/>
+    <rect x="538" width="462" height="328" fill="url(#dots)"/>
+
+    <!-- Nameplate -->
+    <path d="M42 28h6v7h7v6h-7v7h-6v-7h-7v-6h7z" fill="#c14a27"/>
+    <text x="68" y="43" class="mono" font-size="17" fill="#474a54">@johnpaulreju</text>
+    <g class="sans" fill="#191d31" font-weight="750" letter-spacing="-5">
+      <text x="32" y="140" font-size="99">Johnpaul</text>
+      <text x="32" y="238" font-size="99">K Reju<tspan fill="#c14a27">.</tspan></text>
+    </g>
+    <path d="M38 263H496" stroke="#b6b2a9"/>
+    <text x="38" y="300" class="sans" font-size="30" font-weight="600" fill="#272e48">Full Stack AI Engineer</text>
+
+    <!-- The computer is drawn in layers, from the desk shadow to the glass. -->
+    <ellipse cx="773" cy="291" rx="174" ry="17" fill="#282779" opacity=".62"/>
+    <g class="outline">
+      <path d="M686 209h100l8 30 29 10v12H650v-12l30-10z" fill="#c3c0b7"/>
+      <path d="M680 239h114l29 10H650z" fill="#f5eed8"/>
+      <path d="M636 66l32-19h164q7 0 13 4l25 15-27 20z" fill="#faf3db"/>
+      <path d="M841 77l29-11v111q0 8-6 13l-23 17z" fill="#9e9fac"/>
+      <rect x="626" y="61" width="218" height="154" rx="9" fill="#e7dfc9"/>
+      <rect x="642" y="73" width="185" height="113" rx="9" fill="#888b98"/>
+      <rect x="647" y="78" width="175" height="103" rx="6" fill="#222744"/>
+    </g>
+    <g stroke="#555b75" stroke-width="3">
+      <path d="M852 90l10-5m-10 12 10-5m-10 12 10-5m-10 12 10-5m-10 12 10-5"/>
+      <path d="M645 199h19m4 0h13m4 0h8"/>
+    </g>
+    <circle cx="819" cy="199" r="4" fill="#c35430"/>
+    <path d="M659 102h150" stroke="#686b88"/>
+    <g fill="#f8ebcd" class="mono" font-size="15" font-weight="bold">
+      <text x="659" y="97">Plan0</text>
+    </g>
+    <g fill="#fdac79">
+      <rect x="796" y="89" width="4" height="4"/><rect x="804" y="89" width="4" height="4"/>
+    </g>
+    <!-- Sprout icon for the community garden planning example. -->
+    <path d="M677 145v-10h-7v-4h-5v-9h7v3h6v7h3v-9h5v-5h10v8h-5v6h-7v13z" fill="#b5e4ac"/>
+    <path d="M664 145h31l-4 10h-23z" fill="#ffad79"/>
+    <g stroke-linecap="round" stroke-width="3">
+      <path d="M706 120h78m-78 8h52" stroke="#c8cbe6"/>
+      <path d="M706 140h68m-68 8h38" stroke="#8289aa"/>
+    </g>
+    <rect x="709" y="155" width="57" height="15" rx="3" fill="#ffad79"/>
+    <path d="M722 162h26m-4-3 4 3-4 3" stroke="#24253b" stroke-width="2" fill="none"/>
+
+    <!-- Keyboard deck and cable -->
+    <path d="M853 261q40 1 50 11t31-3" stroke="#1c2047" stroke-width="3" fill="none"/>
+    <g class="outline">
+      <path d="M641 249h169l32 27v9H607v-9z" fill="#a5a5ac"/>
+      <path d="M641 249h169l32 27H607z" fill="#ece4cb"/>
+      <path d="M646 254h156l14 11H632z" stroke="none" fill="url(#keys)"/>
+      <path d="M667 268h77" stroke="#575d72" stroke-width="3"/>
+      <path d="M862 269q7-10 18-6l9 7q5 6-1 11-10 7-23 0-9-5-3-12z" fill="#e7dfc9"/>
+    </g>
+    <path d="M870 267l6 4" stroke="#555b75" stroke-width="2"/>
+
+    <!-- The still frame also tells the whole story without animation. -->
+    <g class="brief">
+      <rect x="781" y="133" width="171" height="84" rx="3" fill="#151932" opacity=".82"/>
+      <rect x="775" y="127" width="171" height="84" rx="3" class="outline" fill="#fff7e3"/>
+      <path d="M777 130h167v24H777z" fill="#ffad79"/>
+      <path d="M776 155h168" stroke="#181e39" stroke-width="2"/>
+      <path d="M786 135h8l4 4v9h-12z" fill="none" stroke="#20233a" stroke-width="1.5"/>
+      <text x="804" y="147" class="mono" font-weight="bold" font-size="15" fill="#191d31">PRODUCT.md</text>
+      <g class="ink" stroke="#4e5364" stroke-width="3" stroke-linecap="round">
+        <path d="M788 172h91m-91 10h137m-137 10h70"/>
+      </g>
+    </g>
+    <path class="click" opacity="0" d="M746 153l-4-5m12 3 1-6m-13 13h-6" stroke="#ffd2aa" stroke-width="2.5" stroke-linecap="round"/>
+    <g transform="translate(752 159)">
+      <g class="pointer" transform="translate(112 65)">
+        <path d="M0 0v20l5-5 4 9 4-2-4-9h8z" fill="#fff7df" stroke="#191d31" stroke-width="2" stroke-linejoin="round"/>
+      </g>
+    </g>
+  </g>
+</svg>
