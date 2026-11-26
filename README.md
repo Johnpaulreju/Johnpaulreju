@@ -50,10 +50,17 @@ I use TypeScript and React for interfaces, Python and FastAPI for streaming resp
 - **Organic clicks went from 2 to 11.** Neel Raval and I examined which conclusions we could draw after several changes to From The Trunk, including a hyphen removal. [Read the attribution case study](https://medium.com/@johnpaulreju2k/we-removed-a-hyphen-organic-clicks-rose-450-here-is-what-the-data-really-said-e5230a5214ff)
 - **From O(1) to O(n!).** A hands-on guide to what happens to runtime and memory as inputs get larger. [Read the code examples](https://medium.com/@johnpaulreju2k/from-o-1-to-o-n-a-friendly-guide-to-algorithm-complexity-with-real-code-bd84d28832ca)
 
-## GitHub activity
+## Miko, my Git Koi
 
-[![Public profile snapshot from August 2 to November 21, 2026. There were 82 contributions across 21 active days.](./assets/activity.svg)](https://github.com/Johnpaulreju?tab=overview&from=2026-08-02&to=2026-11-21)
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/miko/aquarium.gif">
+    <img src="./assets/miko/aquarium.png" width="720" alt="Miko, my pixel-art Git Koi, swimming in a planted aquarium.">
+  </picture>
+</p>
 
-[See my current GitHub activity](https://github.com/Johnpaulreju?tab=overview)
+**Miko joined me on November 26, 2026.** He started his journey as a white koi with blue markings, taking a slow cruise around his tank.
+
+My public GitHub contributions help him grow. The languages in the repositories I work on color his scales, and weekly streaks leave markings on his fins. His tank refreshes daily, so on your next visit you might catch him resting, feeding, or darting through the water. [How Git Koi works](https://github.com/yalongwastaken/git-koi)
 
 Outside work, I like gaming and cooking. [Connect on LinkedIn](https://www.linkedin.com/in/johnpaul-k-reju/)
