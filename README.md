@@ -72,8 +72,8 @@ My public GitHub contributions help him grow. The languages in the repositories 
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/calendar-dark.svg">
-  <img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/calendar-light.svg" width="100%" alt="A violet snake moves across my GitHub contribution calendar. Each green square briefly fades as the snake passes.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/calendar-dark.svg?layout=wide">
+  <img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/calendar-light.svg?layout=wide" width="100%" alt="A violet snake moves across my GitHub contribution calendar. Each green square briefly fades as the snake passes.">
 </picture>
 
 ## Projects
