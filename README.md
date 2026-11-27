@@ -18,6 +18,8 @@ I'm a full stack AI engineer in Bengaluru. At Odyssey Therapeia, I built a clini
 
 [Portfolio](https://www.johnpaulreju.in/) · [Résumé](https://www.johnpaulreju.in/resume) · [Medium](https://medium.com/@johnpaulreju2k) · [Email](mailto:johnpaulreju2k@gmail.com)
 
+Outside work, I like gaming and cooking. [Connect on LinkedIn](https://www.linkedin.com/in/johnpaul-k-reju/)
+
 ## Inside Plan0
 
 Plan0 is a planning tool I’m building for people who use coding agents. Describe an app you want to make. Plan0 asks who will use it, what the first version should do, and which constraints matter. You review the blueprint, then export a ZIP with the product scope (`PRODUCT.md`), technical design (`ARCHITECTURE.md`), and instructions for your coding agent (`AGENTS.md`).
@@ -66,16 +68,3 @@ I use TypeScript and React for interfaces, Python and FastAPI for streaming resp
 **Miko joined me on November 26, 2026.** He started his journey as a white koi with blue markings, taking a slow cruise around his tank.
 
 My public GitHub contributions help him grow. The languages in the repositories I work on color his scales, and weekly streaks leave markings on his fins. His tank refreshes daily, so on your next visit you might catch him resting, feeding, or darting through the water. [How Git Koi works](https://github.com/yalongwastaken/git-koi)
-
-### Contribution snake
-
-<a href="https://github.com/Johnpaulreju/Johnpaulreju/tree/main/assets/snake#my-contribution-snake">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake/preview-dark.svg">
-    <img src="./assets/snake/preview-light.svg" width="360" alt="A close-up of my contribution snake following its daily route. Open the full animation.">
-  </picture>
-</a>
-
-The snake follows a new route when my contribution graph changes. Watch it cross the full year in [dark mode](https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/snake-dark.svg) or [light mode](https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/snake-light.svg).
-
-Outside work, I like gaming and cooking. [Connect on LinkedIn](https://www.linkedin.com/in/johnpaul-k-reju/)
