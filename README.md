@@ -16,11 +16,13 @@
 
 I'm a full stack AI engineer in Bengaluru. At Odyssey Therapeia, I built a clinical workspace where a doctor can open an appointment and start the AI scribe in the same view. I’ve also built real-time avatar chat, from the React interface to the FastAPI stream behind it.
 
-[Portfolio](https://www.johnpaulreju.in/) · [Résumé](https://www.johnpaulreju.in/resume) · [Medium](https://medium.com/@johnpaulreju2k) · [Email](mailto:johnpaulreju2k@gmail.com)
+[Portfolio](https://www.johnpaulreju.in/) · [Monthly build notes](#what-i-built-each-month) · [Résumé](https://www.johnpaulreju.in/resume) · [Medium](https://medium.com/@johnpaulreju2k) · [Email](mailto:johnpaulreju2k@gmail.com)
 
 ## Inside Plan0
 
-I’m building Plan0 to turn a software idea into a brief for a coding agent. In this recorded local demo, I start with a watering schedule for a community garden. After five scripted questions, I open the exported ZIP and find the volunteers, shift rules and first-release scope in `PRODUCT.md`.
+Plan0 is a planning tool I’m building for people who use coding agents. Describe an app you want to make. Plan0 asks who will use it, what the first version should do, and which constraints matter. You review the blueprint, then export a ZIP with the product scope (`PRODUCT.md`), technical design (`ARCHITECTURE.md`), and instructions for your coding agent (`AGENTS.md`).
+
+In this recorded local demo, I plan a watering schedule for a community garden. Five scripted questions turn the idea into a brief that spells out how volunteers claim shifts and how a coordinator spots gaps.
 
 <a href="https://www.johnpaulreju.in/watch/plan0-demo">
   <picture>
@@ -29,7 +31,9 @@ I’m building Plan0 to turn a software idea into a brief for a coding agent. In
   </picture>
 </a>
 
-[Watch the full 42-second walkthrough](https://www.johnpaulreju.in/watch/plan0-demo) · [Visit Plan0](https://www.plan0.in/)
+[Try Plan0](https://www.plan0.in/) · [Watch the 42-second walkthrough with captions](https://www.johnpaulreju.in/watch/plan0-demo)
+
+If Plan0 or the walkthrough won’t open, [play the video directly](https://cdn.jsdelivr.net/gh/Johnpaulreju/My_portfolio@328fd1f7b6cb5112723123cb3cdbd4de6ca4b974/public/media/guides/plan0-demo.mp4). For help, [email me at johnpaulreju2k@gmail.com](mailto:johnpaulreju2k@gmail.com?subject=Plan0%20access%20help) and tell me which link or step failed.
 
 ## Selected work
 
@@ -63,6 +67,23 @@ I use TypeScript and React for interfaces, Python and FastAPI for streaming resp
 
 My public GitHub contributions help him grow. The languages in the repositories I work on color his scales, and weekly streaks leave markings on his fins. His tank refreshes daily, so on your next visit you might catch him resting, feeding, or darting through the water. [How Git Koi works](https://github.com/yalongwastaken/git-koi)
 
-Watch the snake eat my contribution squares in [dark mode](https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/snake-dark.svg) or [light mode](https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/snake-light.svg).
+### Contribution snake
+
+<a href="https://github.com/Johnpaulreju/Johnpaulreju/blob/main/assets/snake/README.md">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake/preview-dark.svg">
+    <img src="./assets/snake/preview-light.svg" width="360" alt="A close-up of my contribution snake following its daily route. Open the full animation.">
+  </picture>
+</a>
+
+The snake follows a new route when my contribution graph changes. Watch it cross the full year in [dark mode](https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/snake-dark.svg) or [light mode](https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/snake-light.svg).
+
+## What I built each month
+
+- **November 2026** · I recorded tours of Portfolio OS and Plan0, and gave Miko a planted aquarium that changes with my GitHub activity. [November build notes](./build-notes/README.md#november-2026)
+- **October 2026** · Mafia Imposter players can invite a friend with a link and keep their lobby open when the host leaves. [October build notes](./build-notes/README.md#october-2026)
+- **September 2026** · I built a phone-style home screen for Portfolio OS and a searchable Journal for the From The Trunk team. [September build notes](./build-notes/README.md#september-2026)
+
+[Browse the full monthly archive with commits and pull requests](./build-notes/README.md)
 
 Outside work, I like gaming and cooking. [Connect on LinkedIn](https://www.linkedin.com/in/johnpaul-k-reju/)
