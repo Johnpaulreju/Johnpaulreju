@@ -63,4 +63,6 @@ I use TypeScript and React for interfaces, Python and FastAPI for streaming resp
 
 My public GitHub contributions help him grow. The languages in the repositories I work on color his scales, and weekly streaks leave markings on his fins. His tank refreshes daily, so on your next visit you might catch him resting, feeding, or darting through the water. [How Git Koi works](https://github.com/yalongwastaken/git-koi)
 
+[Watch my contributions ripple](https://sur1ive.github.io/contribution-fx/?user=Johnpaulreju&theme=ripple&palette=ocean&mode=dark#playground)
+
 Outside work, I like gaming and cooking. [Connect on LinkedIn](https://www.linkedin.com/in/johnpaul-k-reju/)
