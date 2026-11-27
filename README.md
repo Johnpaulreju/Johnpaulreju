@@ -16,7 +16,7 @@
 
 I'm a full stack AI engineer in Bengaluru. At Odyssey Therapeia, I built a clinical workspace where a doctor can open an appointment and start the AI scribe in the same view. I’ve also built real-time avatar chat, from the React interface to the FastAPI stream behind it.
 
-[Portfolio](https://www.johnpaulreju.in/) · [Monthly build notes](#what-i-built-each-month) · [Résumé](https://www.johnpaulreju.in/resume) · [Medium](https://medium.com/@johnpaulreju2k) · [Email](mailto:johnpaulreju2k@gmail.com)
+[Portfolio](https://www.johnpaulreju.in/) · [Résumé](https://www.johnpaulreju.in/resume) · [Medium](https://medium.com/@johnpaulreju2k) · [Email](mailto:johnpaulreju2k@gmail.com)
 
 ## Inside Plan0
 
@@ -77,13 +77,5 @@ My public GitHub contributions help him grow. The languages in the repositories 
 </a>
 
 The snake follows a new route when my contribution graph changes. Watch it cross the full year in [dark mode](https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/snake-dark.svg) or [light mode](https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/snake-light.svg).
-
-## What I built each month
-
-- **November 2026** · I recorded tours of Portfolio OS and Plan0, and gave Miko a planted aquarium that changes with my GitHub activity. [November build notes](https://github.com/Johnpaulreju/Johnpaulreju/tree/main/build-notes#november-2026)
-- **October 2026** · Mafia Imposter players can invite a friend with a link and keep their lobby open when the host leaves. [October build notes](https://github.com/Johnpaulreju/Johnpaulreju/tree/main/build-notes#october-2026)
-- **September 2026** · I built a phone-style home screen for Portfolio OS and a searchable Journal for the From The Trunk team. [September build notes](https://github.com/Johnpaulreju/Johnpaulreju/tree/main/build-notes#september-2026)
-
-[Browse the full monthly archive with commits and pull requests](https://github.com/Johnpaulreju/Johnpaulreju/tree/main/build-notes#what-i-built-each-month)
 
 Outside work, I like gaming and cooking. [Connect on LinkedIn](https://www.linkedin.com/in/johnpaul-k-reju/)
