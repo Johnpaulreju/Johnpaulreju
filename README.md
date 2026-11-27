@@ -73,5 +73,47 @@ My public GitHub contributions help him grow. The languages in the repositories 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/calendar-dark.svg">
-  <img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/calendar-light.svg" width="766" alt="A violet snake moves across my GitHub contribution calendar. Each green square briefly fades as the snake passes.">
+  <img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/calendar-light.svg" width="100%" alt="A violet snake moves across my GitHub contribution calendar. Each green square briefly fades as the snake passes.">
 </picture>
+
+## Projects
+
+<p align="center">
+  <a href="https://github.com/Johnpaulreju/My_portfolio"><img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/projects/portfolio-os.svg" width="406" alt="Portfolio OS. Explore my work in a desktop with draggable windows or a home screen on your phone. TypeScript · Next.js."></a>
+  <a href="https://github.com/Johnpaulreju/mafia_imposter"><img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/projects/mafia-night.svg" width="406" alt="Mafia Night. Play Mafia with friends in private rooms, with secret roles and live votes. TypeScript · WebSockets · Redis."></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Johnpaulreju/Chainlit_OCR_MedicalReport"><img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/projects/medical-report-reader.svg" width="406" alt="Medical Report Reader. Upload a report and get its test results back as structured tables in a chat. Python · Chainlit · pdfplumber."></a>
+  <a href="https://github.com/Johnpaulreju/Fitness_freak"><img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/projects/fitness-freak.svg" width="406" alt="Fitness Freak. A workout planner that matches your inputs to examples with a nearest-neighbor model. JavaScript · Express · KNN."></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Johnpaulreju/Virtual-keyboard"><img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/projects/virtual-keyboard.svg" width="406" alt="Virtual Keyboard. Type on a virtual keyboard by moving your hand in front of a webcam. Python · OpenCV · MediaPipe."></a>
+  <a href="https://github.com/Johnpaulreju/Digit_duel"><img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/projects/digit-duel.svg" width="406" alt="Digit Duel. Challenge a friend to guess a secret number. Each guess earns a hint about its digits. TypeScript · Next.js · Redis."></a>
+</p>
+
+<!-- monthly-builds:start -->
+
+## What I built each month
+
+Select a change to see the code. The small charts show daily public commits and pull requests.
+
+### [November 2026](https://github.com/Johnpaulreju/Johnpaulreju/blob/main/build-notes/activity/2026-11.md)&ensp;<img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/build-notes/activity/2026-11.svg" width="106" height="21" alt="">
+
+- [Captioned walkthroughs of Portfolio OS and Plan0](https://github.com/Johnpaulreju/My_portfolio/commit/328fd1f7b6cb5112723123cb3cdbd4de6ca4b974) · My\_portfolio · Commit
+- [Wallpaper and taskbar settings for Portfolio OS](https://github.com/Johnpaulreju/My_portfolio/commit/044499f81b7c8b6ac66ff7a05eaec3c8e952c023) · My\_portfolio · Commit
+
+### [October 2026](https://github.com/Johnpaulreju/Johnpaulreju/blob/main/build-notes/activity/2026-10.md)&ensp;<img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/build-notes/activity/2026-10.svg" width="106" height="21" alt="">
+
+- [Easier invitations in Mafia Imposter](https://github.com/Johnpaulreju/mafia_imposter/commit/89b25bf5bd5008820556d3bccd9aa854f75cb844) · mafia\_imposter · Commit
+- [Better previews for shared shop links](https://github.com/Odyssey-Therapeia/fromthetrunk-website/pull/73) · fromthetrunk-website · PR #73
+
+### [September 2026](https://github.com/Johnpaulreju/Johnpaulreju/blob/main/build-notes/activity/2026-09.md)&ensp;<img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/build-notes/activity/2026-09.svg" width="106" height="21" alt="">
+
+- [A searchable Journal for the From The Trunk storefront](https://github.com/Odyssey-Therapeia/fromthetrunk-website/commit/e02e41adbb6440d3ff41c682c8a40ee39e8ffb74) · fromthetrunk-website · Commit
+- [A mobile home screen for Portfolio OS](https://github.com/Johnpaulreju/My_portfolio/commit/76219be190792aaaaa12a645b57b830cb32ff308) · My\_portfolio · Commit
+
+[Browse the monthly archive](https://github.com/Johnpaulreju/Johnpaulreju/tree/main/build-notes#what-i-built-each-month)
+
+<!-- monthly-builds:end -->

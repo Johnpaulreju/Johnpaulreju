@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="26" viewBox="0 0 132 26" role="img" aria-labelledby="title">
+  <title id="title">Daily public commits and pull requests in October 2026</title>
+  <style>
+    svg { --line:#8250df; --trace:#5424a9 }
+    @media (prefers-color-scheme:dark) { svg { --line:#b899f5; --trace:#f2eaff } }
+    use { fill:none; stroke:var(--line); stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round }
+    .tracer { stroke:var(--trace); stroke-dasharray:10 110; animation:pass 6s ease-in-out infinite }
+    @keyframes pass { 0% { stroke-dashoffset:10 } 75%,100% { stroke-dashoffset:-100 } }
+    @media (prefers-reduced-motion:reduce) { .tracer { display:none; animation:none } }
+  </style>
+  <defs><path id="days" pathLength="100" d="M2.0,13.6 L6.3,21.0 L10.5,21.0 L14.8,21.0 L19.1,9.9 L23.3,19.8 L27.6,21.0 L31.9,5.0 L36.1,19.8 L40.4,17.3 L44.7,21.0 L48.9,21.0 L53.2,21.0 L57.5,21.0 L61.7,21.0 L66.0,21.0 L70.3,21.0 L74.5,21.0 L78.8,21.0 L83.1,21.0 L87.3,21.0 L91.6,21.0 L95.9,21.0 L100.1,21.0 L104.4,21.0 L108.7,21.0 L112.9,21.0 L117.2,21.0 L121.5,21.0 L125.7,21.0 L130.0,21.0"/></defs>
+  <use href="#days"/><use href="#days" class="tracer"/>
+</svg>

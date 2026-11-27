@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="406" height="136" viewBox="0 0 406 136" role="img" aria-labelledby="title desc">
+  <title id="title">Mafia Night</title>
+  <desc id="desc">Play Mafia with friends in private rooms, with secret roles and live votes. TypeScript · WebSockets · Redis.</desc>
+  <style>
+    :root { --surface: #f7f9fb; --border: #d1d9e0; --text: #1f2328; --secondary: #3d444d; --muted: #59636e; --accent: #6e40c9; }
+    @media (prefers-color-scheme: dark) {
+      :root { --surface: #111820; --border: #363f49; --text: #f0f6fc; --secondary: #c9d1d9; --muted: #a5aeb8; --accent: #c9abff; }
+    }
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+  <rect x="2.5" y="2.5" width="401" height="131" rx="9" fill="var(--surface)" stroke="var(--border)"/>
+  <g transform="translate(19 17)">
+    <rect width="30" height="30" rx="7" fill="var(--accent)" opacity=".13"/>
+    <g transform="translate(4.2 4.2) scale(.9)" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m3 8 5-2 4 2 4-2 5 2-1.5 6.5c-.8 3-4 4.5-7.5 5.5-3.5-1-6.7-2.5-7.5-5.5Z"/><path d="m6.7 11.2 3.1 1.1m4.4 0 3.1-1.1"/></g>
+  </g>
+  <text x="59" y="39" font-size="20" font-weight="650" fill="var(--text)">Mafia Night</text>
+  <path d="M372 27h9v9m0-9-10 10" fill="none" stroke="var(--muted)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="19" y="71" font-size="15" fill="var(--secondary)">Play Mafia with friends in private rooms,<tspan x="19" y="91">with secret roles and live votes.</tspan></text>
+  <text x="19" y="117" font-size="12.5" font-weight="550" fill="var(--accent)">TypeScript · WebSockets · Redis</text>
+</svg>

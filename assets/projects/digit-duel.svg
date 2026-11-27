@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="406" height="136" viewBox="0 0 406 136" role="img" aria-labelledby="title desc">
+  <title id="title">Digit Duel</title>
+  <desc id="desc">Challenge a friend to guess a secret number. Each guess earns a hint about its digits. TypeScript · Next.js · Redis.</desc>
+  <style>
+    :root { --surface: #f7f9fb; --border: #d1d9e0; --text: #1f2328; --secondary: #3d444d; --muted: #59636e; --accent: #926000; }
+    @media (prefers-color-scheme: dark) {
+      :root { --surface: #111820; --border: #363f49; --text: #f0f6fc; --secondary: #c9d1d9; --muted: #a5aeb8; --accent: #efc467; }
+    }
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  </style>
+  <rect x="2.5" y="2.5" width="401" height="131" rx="9" fill="var(--surface)" stroke="var(--border)"/>
+  <g transform="translate(19 17)">
+    <rect width="30" height="30" rx="7" fill="var(--accent)" opacity=".13"/>
+    <g transform="translate(4.2 4.2) scale(.9)" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="14" height="14" rx="3"/><path d="M8 20h11a2 2 0 0 0 2-2V8"/><circle cx="6" cy="7" r=".8"/><circle cx="9" cy="10" r=".8"/><circle cx="12" cy="13" r=".8"/></g>
+  </g>
+  <text x="59" y="39" font-size="20" font-weight="650" fill="var(--text)">Digit Duel</text>
+  <path d="M372 27h9v9m0-9-10 10" fill="none" stroke="var(--muted)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="19" y="71" font-size="15" fill="var(--secondary)">Challenge a friend to guess a secret number.<tspan x="19" y="91">Each guess earns a hint about its digits.</tspan></text>
+  <text x="19" y="117" font-size="12.5" font-weight="550" fill="var(--accent)">TypeScript · Next.js · Redis</text>
+</svg>

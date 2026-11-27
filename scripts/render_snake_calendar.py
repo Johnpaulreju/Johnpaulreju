@@ -52,7 +52,7 @@ def render(source, destination, theme, calendar):
         raise ValueError("The upstream image has no snake")
 
     bg, ink, muted, border, palette = THEMES[theme]
-    root = ET.Element(f"{{{SVG}}}svg", width="766", height="202", viewBox="0 0 766 202",
+    root = ET.Element(f"{{{SVG}}}svg", width="746", height="202", viewBox="10 0 746 202",
                       role="img", attrib={"aria-labelledby": "title description"})
     draw(root, "title", id="title").text = f"Johnpaul's contribution snake — {heading}"
     draw(root, "desc", id="description").text = (
@@ -77,13 +77,19 @@ def render(source, destination, theme, calendar):
     variables = ";".join(f"--c{i}:{color}" for i, color in enumerate(palette))
     draw(root, "style").text = css + f"""
 :root{{--ce:{palette[0]};--cb:transparent;{variables}}}
-text{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:{ink};font-size:11px}}
-.muted{{fill:{muted};font-size:12px}}
+text{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:{ink};font-size:12px}}
+.heading{{font-size:17px;font-weight:600}}
+.muted{{fill:{muted};font-size:13px}}
 .c{{width:12.3077px;height:12.3077px;stroke:none}}
+@media(max-width:530px){{
+  .heading{{font-size:27px}}
+  .month,.weekday,.muted{{font-size:20px}}
+  .minor-month{{display:none}}
+}}
 @media(prefers-reduced-motion:reduce){{.c{{animation:none!important}}.s{{display:none}}}}
 """
     draw(root, "rect", width="766", height="202", fill=bg)
-    draw(root, "text", x="10", y="23", style="font-size:16px").text = heading
+    draw(root, "text", x="10", y="25", **{"class": "heading"}).text = heading
     draw(root, "rect", x="10.5", y="37.5", width="745", height="160", rx="6",
          fill=bg, stroke=border)
     # The reference uses 10px days on a 13px pitch. Also fit an extra week if
@@ -94,10 +100,13 @@ text{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:{i
     for month in calendar["months"]:
         # A single remaining week is narrower than its three-letter label.
         if month["totalWeeks"] >= 2:
-            draw(root, "text", x=f"{55 + month_start * pitch:.2f}", y="66").text = month["name"]
+            month_class = "month" if month["name"] in ("Jan", "Apr", "Jul", "Oct") else "month minor-month"
+            draw(root, "text", x=f"{55 + month_start * pitch:.2f}", y="66",
+                 **{"class": month_class}).text = month["name"]
         month_start += month["totalWeeks"]
     for row, label in [(1, "Mon"), (3, "Wed"), (5, "Fri")]:
-        draw(root, "text", x="24", y=str(81 + 13 * row)).text = label
+        draw(root, "text", x="50", y=str(81 + 13 * row),
+             **{"class": "weekday", "text-anchor": "end"}).text = label
 
     # The upstream grid has 16-unit spacing and offsets its cells by 2 units.
     # Apply the same transform to both cells and snake to preserve its path.
@@ -115,7 +124,7 @@ text{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:{i
         grid.append(segment)
     help_link = draw(root, "a", href="https://docs.github.com/en/account-and-profile/reference/profile-contributions-reference#what-counts-as-a-contribution")
     draw(help_link, "text", x="51", y="182", **{"class": "muted"}).text = "Learn how we count contributions"
-    draw(root, "text", x="609", y="182", **{"class": "muted"}).text = "Less"
+    draw(root, "text", x="633", y="182", **{"class": "muted", "text-anchor": "end"}).text = "Less"
     for i, color in enumerate(palette):
         draw(root, "rect", x=str(638 + 13 * i), y="173", width="10", height="10", rx="2", fill=color)
     draw(root, "text", x="704", y="182", **{"class": "muted"}).text = "More"
