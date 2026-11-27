@@ -69,7 +69,7 @@ My public GitHub contributions help him grow. The languages in the repositories 
 
 ### Contribution snake
 
-<a href="https://github.com/Johnpaulreju/Johnpaulreju/blob/main/assets/snake/README.md">
+<a href="https://github.com/Johnpaulreju/Johnpaulreju/tree/main/assets/snake#my-contribution-snake">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/snake/preview-dark.svg">
     <img src="./assets/snake/preview-light.svg" width="360" alt="A close-up of my contribution snake following its daily route. Open the full animation.">
@@ -80,10 +80,10 @@ The snake follows a new route when my contribution graph changes. Watch it cross
 
 ## What I built each month
 
-- **November 2026** · I recorded tours of Portfolio OS and Plan0, and gave Miko a planted aquarium that changes with my GitHub activity. [November build notes](./build-notes/README.md#november-2026)
-- **October 2026** · Mafia Imposter players can invite a friend with a link and keep their lobby open when the host leaves. [October build notes](./build-notes/README.md#october-2026)
-- **September 2026** · I built a phone-style home screen for Portfolio OS and a searchable Journal for the From The Trunk team. [September build notes](./build-notes/README.md#september-2026)
+- **November 2026** · I recorded tours of Portfolio OS and Plan0, and gave Miko a planted aquarium that changes with my GitHub activity. [November build notes](https://github.com/Johnpaulreju/Johnpaulreju/tree/main/build-notes#november-2026)
+- **October 2026** · Mafia Imposter players can invite a friend with a link and keep their lobby open when the host leaves. [October build notes](https://github.com/Johnpaulreju/Johnpaulreju/tree/main/build-notes#october-2026)
+- **September 2026** · I built a phone-style home screen for Portfolio OS and a searchable Journal for the From The Trunk team. [September build notes](https://github.com/Johnpaulreju/Johnpaulreju/tree/main/build-notes#september-2026)
 
-[Browse the full monthly archive with commits and pull requests](./build-notes/README.md)
+[Browse the full monthly archive with commits and pull requests](https://github.com/Johnpaulreju/Johnpaulreju/tree/main/build-notes#what-i-built-each-month)
 
 Outside work, I like gaming and cooking. [Connect on LinkedIn](https://www.linkedin.com/in/johnpaul-k-reju/)
