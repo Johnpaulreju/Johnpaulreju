@@ -68,3 +68,10 @@ I use TypeScript and React for interfaces, Python and FastAPI for streaming resp
 **Miko joined me on November 26, 2026.** He started his journey as a white koi with blue markings, taking a slow cruise around his tank.
 
 My public GitHub contributions help him grow. The languages in the repositories I work on color his scales, and weekly streaks leave markings on his fins. His tank refreshes daily, so on your next visit you might catch him resting, feeding, or darting through the water. [How Git Koi works](https://github.com/yalongwastaken/git-koi)
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/calendar-dark.svg">
+  <img src="https://raw.githubusercontent.com/Johnpaulreju/Johnpaulreju/main/assets/snake/calendar-light.svg" width="766" alt="A violet snake moves across my GitHub contribution calendar. Each green square briefly fades as the snake passes.">
+</picture>
